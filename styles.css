@@ -7,6 +7,15 @@ body{
     height: 100vh;
 
 }
+.logo{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-links,.copyright{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 .footer,.header{
     background-color: #1f2937;
