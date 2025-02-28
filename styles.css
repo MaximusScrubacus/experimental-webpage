@@ -48,3 +48,13 @@ ul{
     gap: 16px;
     list-style: none;
 }
+
+.lucylu{
+    display: flex;
+    justify-content: center;
+
+}
+
+.wake-me{
+    align-self: center;
+}
