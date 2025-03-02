@@ -4,18 +4,92 @@ body{
     font-family: 'Roboto',sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     margin: 0;
     padding: 0;
     
 }
 
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 0px;
+    margin-top: 10px;
+}
 
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+}
+.nav, .hero{
+    width: 1250px;
+}
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.lucy-hero, .logo, .hero-links{
+    width: 350px;
+}
+.hero-button{
+    display: block;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 5px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.lucy-hero-jpeg{
+    border: solid #1f2937;
+    border-radius: 15px;
+}
+
+.hero-heading{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+}
+.wake-me, .hero-links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-p{
+    margin: 0px;
+}
+
+.hero-button{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: solid #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #f9faf8;
+    padding:  5px 25px;
+}
 
 /* Info Section Css */
 .info-heading{
     text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .lucy-info{
@@ -23,6 +97,8 @@ body{
     height: 250px;
     text-align: center;
     height: 300px;
+    color: #1f2937;
+    font-size: 18px;
 }
 
 .info-boxs{
@@ -40,11 +116,25 @@ body{
 /* Quote Section CSS */
 .quote{
     background-color: #e5e7eb;
-    height: 250px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.text-quote{
+    text-align: center;
+    
+}
+.quote-box{
+    width: 350px;
+    height: 250px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
 .quote-author{
-    text-align:justify right;
+    text-align: right;
 }
 
 /* Modal-section */
@@ -62,12 +152,37 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 50px;
 }
 
 .modal-main{
     height: 250px;
+    color: #f9faf8;
+}
 
+.modal-text{
+    margin: 0px;
+    gap: 2px;
+}
+.modal-b{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #f9faf8;
+    padding:  5px 25px;
 }
 
 /* Footer-Section */
 
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    height: 75px;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

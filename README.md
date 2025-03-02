@@ -1,1 +1,2 @@
 # experimental-webpage
+This was a fun exercise, I felt like I struggled with some elements, and excelled in others. I definitely feel more comfortable using flexbox than I did before. Overall I'm pretty happy with my result and this lucy fanpage.
