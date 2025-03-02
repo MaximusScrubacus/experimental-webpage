@@ -5,70 +5,24 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     
 }
-.logo{
-    font-size: 48px;
-    font-weight: 900;
-}
 
-.header-links,.copyright{
-    font-size: 18px;
-    color: #e5e7eb;
-}
 
-.footer,.header{
-    background-color: #1f2937;
-    color: #f9faf8;
-}
 
-.header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
 
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-}
-
-.main{
-    flex: 1;
-}
-
-ul{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    gap: 16px;
-    list-style: none;
-}
-
-.hero{
-    display: flex;
-    justify-content: space-around;
-    background-color: #1f2937;
-    color: #f9faf8;
-
-}
-
-.lucy-hero{
-    width: 350px;
-    height: 250px;
-}
+/* Info Section Css */
 .info-heading{
     text-align: center;
 }
 
 .lucy-info{
-    width: 150px;
-    height: 150px;
-    
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    height: 300px;
 }
 
 .info-boxs{
@@ -79,6 +33,41 @@ ul{
 }
 
 .young-lucy, .evil-lucy, .depression-lucy , .cute-lucy{
-    border: solid blue;
+    border: solid #3882f6;
     border-radius: 10px;
 }
+
+/* Quote Section CSS */
+.quote{
+    background-color: #e5e7eb;
+    height: 250px;
+}
+
+.quote-author{
+    text-align:justify right;
+}
+
+/* Modal-section */
+.modal-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    height: 150px;
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal-main{
+    height: 250px;
+
+}
+
+/* Footer-Section */
+
