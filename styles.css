@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-
+    
 }
 .logo{
     font-size: 48px;
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 40px;
 }
 
 .main{
@@ -49,12 +49,36 @@ ul{
     list-style: none;
 }
 
-.lucylu{
+.hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
 
 }
 
-.wake-me{
-    align-self: center;
+.lucy-hero{
+    width: 350px;
+    height: 250px;
+}
+.info-heading{
+    text-align: center;
+}
+
+.lucy-info{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.info-boxs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.young-lucy, .evil-lucy, .depression-lucy , .cute-lucy{
+    border: solid blue;
+    border-radius: 10px;
 }
